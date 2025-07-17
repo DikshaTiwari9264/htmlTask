@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ***********Annoucementbar -->
+    <div class="announcement-bar">Get ₹100 off on your first order!</div>
+    <!-- **************Header****** -->
+    <div class="header-container">
+      <header class="header-content">
+        <div class="header-top">
+          <!-- Logo placeholder -->
+          <div class="logo">
+            <img src="./assets/assets/logo.png" />
+          </div>
+
+          <!-- Search Bar -->
+          <div class="search-container">
+            <div class="search-wrapper">
+              <svg
+                class="search-icon"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                ></path>
+              </svg>
+              <input type="text" class="search-input" placeholder="Search" />
+            </div>
+          </div>
+
+          <!-- Icons -->
+          <div class="header-icons">
+            <a href="#" class="app-download">
+              <svg class="app-icon" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M17 1.01L7 1c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-1.99-2-1.99zM17 19H7V5h10v14z"
+                />
+              </svg>
+              <span class="app-text">download app now</span>
+            </a>
+            <svg
+              class="icon-button"
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+              ></path>
+            </svg>
+            <svg
+              class="icon-button"
+              width="24"
+              height="24"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-2.5 5M7 13l-2.5 5m0 0L9 19m-4.5-1h13"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </header>
+
+      <!-- Navigation -->
+      <nav class="navigation">
+        <div class="nav-content">
+          <div class="nav-menu">
+            <!-- Skin Dropdown -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">
+                skin
+                <svg
+                  class="dropdown-arrow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item">face wash</a>
+                  <a href="#" class="dropdown-item">moisturizer</a>
+                  <a href="#" class="dropdown-item">serum</a>
+                  <a href="#" class="dropdown-item">sunscreen</a>
+                  <a href="#" class="dropdown-item see-all">see all</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Body Dropdown -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">
+                body
+                <svg
+                  class="dropdown-arrow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item">body lotion</a>
+                  <a href="#" class="dropdown-item">body wash</a>
+                  <a href="#" class="dropdown-item">scrub</a>
+                  <a href="#" class="dropdown-item">hand cream</a>
+                  <a href="#" class="dropdown-item see-all">see all</a>
+                </div>
+              </div>
+            </div>
+            <!-- Hair Dropdown -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">
+                hair
+                <svg
+                  class="dropdown-arrow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item">shampoo</a>
+                  <a href="#" class="dropdown-item">conditioner</a>
+                  <a href="#" class="dropdown-item">hair oil</a>
+                  <a href="#" class="dropdown-item">hair mask</a>
+                  <a href="#" class="dropdown-item see-all">see all</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fragrances Dropdown -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">
+                fragrances
+                <svg
+                  class="dropdown-arrow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item">perfume</a>
+                  <a href="#" class="dropdown-item">body mist</a>
+                  <a href="#" class="dropdown-item">deodorant</a>
+                  <a href="#" class="dropdown-item">gift sets</a>
+                  <a href="#" class="dropdown-item see-all">see all</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Regular Links -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">makeup</a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#" class="nav-link">combos</a>
+            </div>
+
+            <!-- Blogs & Newsletters Dropdown -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">
+                blogs & newsletters
+                <svg
+                  class="dropdown-arrow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item">beauty blogs</a>
+                  <a href="#" class="dropdown-item">product launches</a>
+                  <a href="#" class="dropdown-item">newsletters</a>
+                  <a href="#" class="dropdown-item">skincare tips</a>
+                  <a href="#" class="dropdown-item see-all">see all</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Get to Know Us Dropdown -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">
+                get to know us
+                <svg
+                  class="dropdown-arrow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item">about us</a>
+                  <a href="#" class="dropdown-item">our story</a>
+                  <a href="#" class="dropdown-item">sustainability</a>
+                  <a href="#" class="dropdown-item">press</a>
+                  <a href="#" class="dropdown-item see-all">see all</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Help Dropdown -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">
+                help
+                <svg
+                  class="dropdown-arrow"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </a>
+              <div class="dropdown-menu">
+                <div class="dropdown-content">
+                  <a href="#" class="dropdown-item">contact us</a>
+                  <a href="#" class="dropdown-item">FAQ</a>
+                  <a href="#" class="dropdown-item">shipping info</a>
+                  <a href="#" class="dropdown-item">returns</a>
+                  <a href="#" class="dropdown-item see-all">see all</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Regular Links -->
+            <div class="nav-item">
+              <a href="#" class="nav-link">careers</a>
+            </div>
+
+            <div class="nav-item">
+              <a href="#" class="nav-link">bulk orders</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- ****************Banner********** -->
+    <div class="banner">
+      <img src="./assets/assets/banner.png" alt="Banner Image" />
+    </div>
+    <!-- *********ProductCategoris******* -->
+    <div class="container">
+      <div class="top-content">
+        <h1>new launches</h1>
+      </div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="badge">new launch!</div>
+          <div class="productImage">
+            <img src="assets/assets/card-1.jpg" alt="Anti-Dandruff Shampoo" />
+          </div>
+          <div class="product-info">
+            <div class="rating">
+              <svg
+                class="star-icon icon"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                />
+              </svg>
+              <span class="rating-score">5.0</span>
+              <span class="reviews">👍 21 reviews</span>
+            </div>
+            <h3 class="product-title">
+              Anti-Dandruff Shampoo with Organic Minerals & 0.5% Salicylic Acid
+            </h3>
+            <p class="product-description">
+              72 hr Dandruff & Frizz Control | Prevents Dry Hair
+            </p>
+            <div class="discountBadge">
+              <span class="discount-label">12% off</span>
+            </div>
+            <div class="size-badge">
+              <span class="size-label">250ml</span>
+            </div>
+            <div class="price-section">
+              <span class="current-price">₹ 396.00</span>
+              <span class="original-price">₹ 450.00</span>
+              <span class="discount-percent">(12% off)</span>
+            </div>
+            <button class="add-to-cart">add to cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="badge">new launch!</div>
+          <div class="productImage">
+            <img
+              src="./assets/assets/card-2.jpg"
+              alt="Oh So Pistachio Eau De Parfum"
+            />
+          </div>
+          <div class="product-info">
+            <div class="rating">
+              <svg
+                class="star-icon icon"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                />
+              </svg>
+              <span class="rating-score">4.0</span>
+              <span class="reviews">👍 54 reviews</span>
+            </div>
+            <h3 class="product-title">
+              Oh So Pistachio Eau De Parfum (Perfume) by Plum BodyLovin'
+            </h3>
+            <p class="product-description">
+              Long Lasting | Summer Gourmand Fragrance | Supremely Luxurious
+            </p>
+            <div class="discountBadge">
+              <span class="discount-label">15% off</span>
+            </div>
+            <div class="size-badge">
+              <span class="size-label">50 ml</span>
+            </div>
+            <div class="price-section">
+              <span class="current-price">₹ 764.00</span>
+              <span class="original-price">₹ 899.00</span>
+              <span class="discount-percent">(15% off)</span>
+            </div>
+            <button class="add-to-cart">add to cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="badge">new launch!</div>
+          <div class="productImage">
+            <img src="assets/assets/card-3.jpg" alt="Vitamin C Gel Cream" />
+          </div>
+          <div class="product-info">
+            <div class="rating">
+              <svg
+                class="star-icon icon"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                />
+              </svg>
+              <span class="rating-score">4.4</span>
+              <span class="reviews">👍 24 reviews</span>
+            </div>
+            <h3 class="product-title">
+              1% Vitamin C Ultra-Light-Glow Boosting Gel Cream with Alpha
+              Arbutin
+            </h3>
+            <p class="product-description">
+              Boosts Glow | Fades Dark Spots & Pigmentation | Deeply Hydrates
+            </p>
+            <div class="discountBadge">
+              <span class="discount-label">10% off</span>
+            </div>
+            <div class="size-badge">
+              <span class="size-label">50 g</span>
+            </div>
+            <div class="price-section">
+              <span class="current-price">₹ 494.00</span>
+              <span class="original-price">₹ 549.00</span>
+              <span class="discount-percent">(10% off)</span>
+            </div>
+            <button class="add-to-cart">add to cart</button>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="badge">new launch!</div>
+          <div class="productImage">
+            <img
+              src="assets/assets/card-1.jpg"
+              alt="Marine Spring Water Toning Mist"
+            />
+          </div>
+          <div class="product-info">
+            <div class="rating">
+              <svg
+                class="star-icon icon"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                />
+              </svg>
+              <span class="rating-score">4.1</span>
+              <span class="reviews">👍 11 reviews</span>
+            </div>
+            <h3 class="product-title">
+              1% Marine Spring Water Replenishing Toning Mist Spray with Amino
+              Acids
+            </h3>
+            <p class="product-description">
+              Hydrates, Cools & Revitalizes | with Active Minerals | On-the-go
+              Soothing Face Mist
+            </p>
+            <div class="discountBadge">
+              <span class="discount-label">10% off</span>
+            </div>
+            <div class="size-badge">
+              <span class="size-label">100ml</span>
+            </div>
+            <div class="price-section">
+              <span class="current-price">₹ 494.00</span>
+              <span class="original-price">₹ 549.00</span>
+              <span class="discount-percent">(10% off)</span>
+            </div>
+            <button class="add-to-cart">add to cart</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="view-all">
+        <button class="view-all-button">
+          view all
+          <svg
+            class="chevron-icon icon"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5l7 7-7 7"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- ************combo offer************* -->
+    <div class="container">
+      <section class="combo-section">
+        <div class="header">
+          <div class="gift-icon">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="20,12 20,22 4,22 4,12"></polyline>
+              <rect x="2" y="7" width="20" height="5"></rect>
+              <line x1="12" y1="22" x2="12" y2="7"></line>
+              <path d="m5,7 10,0"></path>
+              <path d="m19,7-10,0"></path>
+              <path
+                d="m5,7-3,0 0,-2c0,-1.1 0.9,-2 2,-2 1.1,0 2,0.9 2,2l0,2"
+              ></path>
+              <path
+                d="m19,7 3,0 0,-2c0,-1.1-0.9,-2-2,-2-1.1,0-2,0.9-2,2l0,2"
+              ></path>
+            </svg>
+          </div>
+          <h2 class="main-title">Combo Offers</h2>
+        </div>
+        <div class="combo-grid">
+          <!-- Combo 1: Complete Skincare Routine -->
+          <div class="combo-card">
+            <div class="card-header">
+              <img
+                src="assets/assets/skin.jpg"
+                alt="Complete Skincare Routine"
+                class="product-image"
+              />
+              <h3 class="card-title">Complete Skincare Routine</h3>
+              <ul class="products-list">
+                <li>• Vitamin C Serum</li>
+                <li>• Moisturizer</li>
+                <li>• Sunscreen</li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <div class="pricing-section">
+                <div class="price-left">
+                  <p class="original-price">₹ 1299.00</p>
+                  <p class="combo-price">₹ 999.00</p>
+                </div>
+                <div class="savings-section">
+                  <p class="savings-text">Save ₹300</p>
+                  <span class="discount-badge">23% OFF</span>
+                </div>
+              </div>
+              <button class="buy-button">Buy Combo</button>
+            </div>
+          </div>
+
+          <!-- Combo 2: Hair Care Essentials -->
+          <div class="combo-card">
+            <div class="card-header">
+              <img
+                src="assets/assets/hair.jpg"
+                class="rounded-image"
+                alt="Hair Care"
+              />
+
+              <h3 class="card-title">Hair Care Essentials</h3>
+              <ul class="products-list">
+                <li>• Shampoo</li>
+                <li>• Conditioner</li>
+                <li>• Hair Oil</li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <div class="pricing-section">
+                <div class="price-left">
+                  <p class="original-price">₹ 899.00</p>
+                  <p class="combo-price">₹ 699.00</p>
+                </div>
+                <div class="savings-section">
+                  <p class="savings-text">Save ₹200</p>
+                  <span class="discount-badge">22% OFF</span>
+                </div>
+              </div>
+              <button class="buy-button">Buy Combo</button>
+            </div>
+          </div>
+
+          <!-- Combo 3: Fragrance Collection -->
+          <div class="combo-card">
+            <div class="card-header">
+              <img
+                src="assets/assets/perfmue.jpg"
+                alt="Fragrance Collection"
+                class="product-image"
+              />
+              <h3 class="card-title">Fragrance Collection</h3>
+              <ul class="products-list">
+                <li>• Body Mist</li>
+                <li>• Perfume</li>
+                <li>• Body Lotion</li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <div class="pricing-section">
+                <div class="price-left">
+                  <p class="original-price">₹ 1599.00</p>
+                  <p class="combo-price">₹ 1199.00</p>
+                </div>
+                <div class="savings-section">
+                  <p class="savings-text">Save ₹400</p>
+                  <span class="discount-badge">25% OFF</span>
+                </div>
+              </div>
+              <button class="buy-button">Buy Combo</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ******************testminoal********* -->
+    <div class="container">
+      <section class="testimonials-section">
+        <div class="header">
+          <svg
+            class="quote-icon icon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"
+            />
+            <path
+              d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"
+            />
+          </svg>
+          <h2 class="title">testimonials</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <img
+                src="assets/assets/men-per.jpg"
+                alt="Sarah Johnson"
+                class="avatar"
+              />
+              <div class="user-info">
+                <h4>Sarah Johnson</h4>
+                <div class="rating-container">
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <div class="verified-badge">Verified</div>
+                </div>
+              </div>
+            </div>
+            <p class="testimonial-comment">
+              "Amazing products! My skin has never looked better. The vitamin C
+              serum is a game changer."
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <img
+                src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face"
+                alt="Priya Sharma"
+                class="avatar"
+              />
+              <div class="user-info">
+                <h4>Priya Sharma</h4>
+                <div class="rating-container">
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <div class="verified-badge">Verified</div>
+                </div>
+              </div>
+            </div>
+            <p class="testimonial-comment">
+              "Love the natural ingredients and the results are visible within
+              weeks. Highly recommended!"
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <img
+                src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=100&h=100&fit=crop&crop=face"
+                alt="Emily Chen"
+                class="avatar"
+              />
+              <div class="user-info">
+                <h4>Emily Chen</h4>
+                <div class="rating-container">
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg class="star" viewBox="0 0 24 24">
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <svg
+                    class="star"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <polygon
+                      points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"
+                    />
+                  </svg>
+                  <div class="verified-badge">Verified</div>
+                </div>
+              </div>
+            </div>
+            <p class="testimonial-comment">
+              "Great quality products at affordable prices. The packaging is
+              also very elegant."
+            </p>
+          </div>
+        </div>
+
+        <div class="read-more-container">
+          <button class="read-more-btn">
+            read more reviews
+            <svg
+              class="chevron-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M9 18l6-6-6-6" />
+            </svg>
+          </button>
+        </div>
+      </section>
+    </div>
+
+    <!-- ********** Blogs Card******-->
+    <section class="container">
+      <div class="header">
+        <svg class="header-icon book-icon" viewBox="0 0 24 24">
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+        </svg>
+        <h2 class="header-title">latest blogs</h2>
+      </div>
+
+      <div class="blog-grid">
+        <article class="blog-card">
+          <div class="image-container">
+            <img
+              src="assets/assets/glowing.jpg"
+              alt="10 Essential Skincare Tips for Glowing Skin"
+              class="blog-image"
+            />
+            <div class="category-badge">Skincare</div>
+          </div>
+          <div class="blog-content">
+            <h3 class="blog-title">
+              10 Essential Skincare Tips for Glowing Skin
+            </h3>
+            <p class="blog-excerpt">
+              Discover the secrets to achieving radiant, healthy skin with our
+              expert-approved skincare routine and product recommendations.
+            </p>
+            <div class="blog-meta">
+              <span>By Dr. Sarah Wilson</span>
+              <span>Dec 15, 2024</span>
+              <span>5 min read</span>
+            </div>
+            <a href="#" class="read-more">
+              Read More
+              <svg class="chevron-icon chevron-right" viewBox="0 0 24 24">
+                <path d="M9 18l6-6-6-6"></path>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="image-container">
+            <img
+              src="assets/assets/beatuy.jpg"
+              alt="The Science Behind Natural Beauty Products"
+              class="blog-image"
+            />
+            <div class="category-badge">Science</div>
+          </div>
+          <div class="blog-content">
+            <h3 class="blog-title">
+              The Science Behind Natural Beauty Products
+            </h3>
+            <p class="blog-excerpt">
+              Learn how natural ingredients work at the molecular level to
+              transform your skin and why they're becoming the gold standard.
+            </p>
+            <div class="blog-meta">
+              <span>By Prof. Michael Chen</span>
+              <span>Dec 12, 2024</span>
+              <span>8 min read</span>
+            </div>
+            <a href="#" class="read-more">
+              Read More
+              <svg class="chevron-icon chevron-right" viewBox="0 0 24 24">
+                <path d="M9 18l6-6-6-6"></path>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="blog-card">
+          <div class="image-container">
+            <img
+              src="assets/assets/winter.jpg"
+              alt="Seasonal Beauty: Winter Skincare Essentials"
+              class="blog-image"
+            />
+            <div class="category-badge">Seasonal</div>
+          </div>
+          <div class="blog-content">
+            <h3 class="blog-title">
+              Seasonal Beauty: Winter Skincare Essentials
+            </h3>
+            <p class="blog-excerpt">
+              Protect your skin from harsh winter conditions with our
+              comprehensive guide to cold-weather skincare routines.
+            </p>
+            <div class="blog-meta">
+              <span>By Emma Rodriguez</span>
+              <span>Dec 10, 2024</span>
+              <span>6 min read</span>
+            </div>
+            <a href="#" class="read-more">
+              Read More
+              <svg class="chevron-icon chevron-right" viewBox="0 0 24 24">
+                <path d="M9 18l6-6-6-6"></path>
+              </svg>
+            </a>
+          </div>
+        </article>
+      </div>
+
+      <div class="view-all-container">
+        <button class="view-all-btn">
+          view all blogs
+          <svg class="chevron-icon chevron-right" viewBox="0 0 24 24">
+            <path d="M9 18l6-6-6-6"></path>
+          </svg>
+        </button>
+      </div>
+    </section>
+    <!-- ************whychoosus********* -->
+    <section class="container">
+      <div class="header-ptn">
+        <div class="header-icon award"></div>
+        <h2 class="header-title">why choose us?</h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-container">
+            <div class="feature-icon shield"></div>
+          </div>
+          <h3 class="feature-title">100% Natural Ingredients</h3>
+          <p class="feature-description">
+            All our products are made with carefully sourced, organic
+            ingredients that are safe for your skin and the environment.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-container">
+            <div class="feature-icon award"></div>
+          </div>
+          <h3 class="feature-title">Dermatologist Tested</h3>
+          <p class="feature-description">
+            Every product undergoes rigorous testing by certified dermatologists
+            to ensure safety and effectiveness.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-container">
+            <div class="feature-icon truck"></div>
+          </div>
+          <h3 class="feature-title">Free Fast Delivery</h3>
+          <p class="feature-description">
+            Enjoy free shipping on orders above ₹499 with express delivery
+            options available nationwide.
+          </p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-container">
+            <div class="feature-icon headphones"></div>
+          </div>
+          <h3 class="feature-title">24/7 Customer Support</h3>
+          <p class="feature-description">
+            Our dedicated support team is always ready to help you with any
+            questions or concerns about our products.
+          </p>
+        </div>
+      </div>
+
+      <div class="cta-section">
+        <button class="cta-button">Learn More About Us</button>
+      </div>
+    </section>
+    <!-- *************vedio testminoal*********** -->
+    <section class="container">
+      <div class="section-header">
+        <svg
+          class="icon"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="#5E0C8C"
+          viewBox="0 0 24 24"
+        >
+          <path d="M5 3v18l15-9L5 3Z" />
+        </svg>
+        <h2>video testimonials</h2>
+      </div>
+
+      <div class="video-grid">
+        <!-- Video 1 -->
+        <div class="video-card">
+          <div class="thumbnail-wrapper">
+            <img
+              src="assets/assets/architure.jpg"
+              alt="Jessica Martinez"
+              class="thumbnail"
+            />
+
+            <div class="duration">2:34</div>
+          </div>
+          <div class="video-content">
+            <div class="user-info">
+              <div class="avatar">JM</div>
+              <div>
+                <h4>Jessica Martinez</h4>
+                <p>Beauty Influencer</p>
+              </div>
+            </div>
+            <p class="description">
+              How this skincare routine transformed my skin in 30 days
+            </p>
+            <div class="footer">
+              <span>12.5K views</span>
+              <button class="watch-btn">Watch Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="video-card">
+          <div class="thumbnail-wrapper">
+            <img
+              src="assets/assets/vedio.webp"
+              alt="David Thompson"
+              class="thumbnail"
+            />
+
+            <div class="duration">4:12</div>
+          </div>
+          <div class="video-content">
+            <div class="user-info">
+              <div class="avatar">DT</div>
+              <div>
+                <h4>David Thompson</h4>
+                <p>Dermatologist</p>
+              </div>
+            </div>
+            <p class="description">
+              Professional review: Why I recommend these products to my patients
+            </p>
+            <div class="footer">
+              <span>8.9K views</span>
+              <button class="watch-btn">Watch Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="video-card">
+          <div class="thumbnail-wrapper">
+            <img
+              src="assets/assets/robot.jpg"
+              alt="Aisha Patel"
+              class="thumbnail"
+            />
+
+            <div class="duration">1:45</div>
+          </div>
+          <div class="video-content">
+            <div class="user-info">
+              <div class="avatar">AP</div>
+              <div>
+                <h4>Aisha Patel</h4>
+                <p>Satisfied Customer</p>
+              </div>
+            </div>
+            <p class="description">
+              My journey from acne-prone to clear, confident skin
+            </p>
+            <div class="footer">
+              <span>15.2K views</span>
+              <button class="watch-btn">Watch Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="view-all">
+        <button class="view-btn">
+          view all videos
+          <svg
+            class="icon"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path d="M9 18l6-6-6-6" />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <!-- **************footer************ -->
+    <div class="warning-banner">
+      <div class="warning-content">
+        <svg
+          class="warning-icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path
+            d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"
+          />
+          <path d="M12 9v4" />
+          <path d="m12 17 .01 0" />
+        </svg>
+        <span class="warning-text">Be Cautious of Fraudulent Calls</span>
+        <button class="warning-link">read more...</button>
+      </div>
+    </div>
+    <footer class="footer">
+      <!-- Main Footer Content -->
+      <div class="footer-content">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h3 class="column-title">shop</h3>
+            <ul class="column-links">
+              <li><a href="#" class="footer-link">skincare</a></li>
+              <li><a href="#" class="footer-link">bodycare</a></li>
+              <li><a href="#" class="footer-link">haircare</a></li>
+              <li><a href="#" class="footer-link">fragrances</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3 class="column-title">learn</h3>
+            <ul class="column-links">
+              <li><a href="#" class="footer-link">plum blogs</a></li>
+              <li><a href="#" class="footer-link">plum features</a></li>
+              <li><a href="#" class="footer-link">plum rewards</a></li>
+              <li><a href="#" class="footer-link">newsletters</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h3 class="column-title">help</h3>
+            <ul class="column-links">
+              <li><a href="#" class="footer-link">contact us</a></li>
+              <li><a href="#" class="footer-link">policies</a></li>
+              <li><a href="#" class="footer-link">faqs</a></li>
+              <li><a href="#" class="footer-link">empties4good</a></li>
+              <li><a href="#" class="footer-link">track your order</a></li>
+              <li><a href="#" class="footer-link">return order</a></li>
+              <li><a href="#" class="footer-link">exchange order</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column newsletter-column">
+            <h3 class="newsletter-title">
+              sign up for expert beauty insights,<br />
+              tips & previews!
+            </h3>
+            <p class="newsletter-subtitle">(PS: we too hate spam!)</p>
+
+            <div class="newsletter-form">
+              <input
+                type="email"
+                placeholder="your email"
+                class="email-input"
+              />
+              <button class="subscribe-button">subscribe</button>
+            </div>
+
+            <div class="social-contact">
+              <div class="social-icons">
+                <a href="#" class="social-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="social-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="social-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <span class="phone-number">+91-750-649-6604</span>
+            </div>
+            <p class="email-address">hello@plumgoodness.com</p>
+          </div>
+        </div>
+      </div>
+      <!-- Bottom Section -->
+    </footer>
+    <div class="footer-bottom">
+      <div class="bottom-content">
+        <span>© 2025 plum, all rights reserved.</span>
+        <a href="#" class="bottom-link">privacy policy</a>
+        <span class="separator">|</span>
+        <a href="#" class="bottom-link">terms of service</a>
+      </div>
+    </div>
+  </body>
+</html>
